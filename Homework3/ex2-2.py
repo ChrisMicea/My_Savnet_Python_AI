@@ -11,7 +11,7 @@ winnings = {
 chosenNums = []
 
 while len(chosenNums) < 6:
-    num = input("Introduceti un numar: ")
+    num = input(f"Introduceti un numar intre 1 si 49 (numarul {len(chosenNums) + 1} / 6): ")
     if not num.isdigit():
         print("Numar invalid")
         continue
