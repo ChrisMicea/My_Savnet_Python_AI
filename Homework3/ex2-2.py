@@ -15,6 +15,12 @@ while len(chosenNums) < 6:
     if not num.isdigit():
         print("Numar invalid")
         continue
+    if int(num) in chosenNums:
+        print("Numar deja introdus")
+        continue
+    if int(num) < 1 or int(num) > 49:
+        print("Numar in afara intervalului 1-49")
+        continue
     chosenNums.append(int(num))
 
 matches = 0
