@@ -1,0 +1,8 @@
+click==8.3.2
+joblib==1.5.3
+nltk==3.9.4
+pyphen==0.17.2
+regex==2026.4.4
+setuptools==82.0.1
+textstat==0.7.13
+tqdm==4.67.3
