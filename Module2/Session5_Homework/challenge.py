@@ -4,7 +4,7 @@ def clean_whitespace(post: str) -> str:
     # remove spaces from the beginning and end
     post = post.strip()
 
-    # post = " ".join(post.split()) # this replaces sereis of white spaces with just one but is too pythonic for me
+    # post = " ".join(post.split()) # this replaces a series of white spaces with just one but is too pythonic for me
     
     # replace multiple spaces with a single space
     clean_post = "" 
